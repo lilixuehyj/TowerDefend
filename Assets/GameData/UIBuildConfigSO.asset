@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 038b02fec65467141912fa9146e6ee36, type: 3}
+  m_Name: UIBuildConfigSO
+  m_EditorClassIdentifier: 
+  UIBuildConfigs:
+  - buildID: 1001
+    sprite: {fileID: -270931293, guid: 24e3edf5cfa4d468fbdeed1f09a965a8, type: 3}
+    name: "\u4E00\u7EA7\u8461\u8404\u70AE\u53F0"
+    cost: 200
+    isBased: 1
+    nexLev: 1002
+    towerConfig:
+      atk: 2
+      attackRange: 3
+      attackSpeed: 1
+      bulletSpeed: 5
+      bulletType: 0
+      towerPrefab: {fileID: 5672762458700940664, guid: 659acc7683fe23744a6d8dd539f91e1a, type: 3}
+  - buildID: 1002
+    sprite: {fileID: 546229442, guid: 24e3edf5cfa4d468fbdeed1f09a965a8, type: 3}
+    name: "\u4E8C\u7EA7\u8461\u8404\u70AE\u53F0"
+    cost: 200
+    isBased: 0
+    nexLev: 1003
+    towerConfig:
+      atk: 3
+      attackRange: 5
+      attackSpeed: 2
+      bulletSpeed: 5
+      bulletType: 0
+      towerPrefab: {fileID: 1389192459645303124, guid: 832bcb3f71708c74284dc67cb6a4c50b, type: 3}
+  - buildID: 1003
+    sprite: {fileID: -1031843392, guid: 24e3edf5cfa4d468fbdeed1f09a965a8, type: 3}
+    name: "\u4E09\u7EA7\u8461\u8404\u70AE\u53F0"
+    cost: 500
+    isBased: 0
+    nexLev: 0
+    towerConfig:
+      atk: 3
+      attackRange: 3
+      attackSpeed: 5
+      bulletSpeed: 0
+      bulletType: 0
+      towerPrefab: {fileID: 3766449020935858080, guid: 90bf2716d8bc58146b71ad5be34ec383, type: 3}
+  - buildID: 1004
+    sprite: {fileID: 1774969089, guid: ba8cb7102384d418883ef909ed3befd5, type: 3}
+    name: "\u4E00\u7EA7\u841D\u535C\u70AE\u53F0"
+    cost: 100
+    isBased: 1
+    nexLev: 1005
+    towerConfig:
+      atk: 1
+      attackRange: 4
+      attackSpeed: 2
+      bulletSpeed: 5
+      bulletType: 2
+      towerPrefab: {fileID: 4035927767085733012, guid: 301798ada3040344b96504c64fcbf339, type: 3}
+  - buildID: 1005
+    sprite: {fileID: -1256380199, guid: ba8cb7102384d418883ef909ed3befd5, type: 3}
+    name: "\u4E8C\u7EA7\u841D\u535C\u70AE\u53F0"
+    cost: 100
+    isBased: 0
+    nexLev: 1006
+    towerConfig:
+      atk: 2
+      attackRange: 4
+      attackSpeed: 2
+      bulletSpeed: 5
+      bulletType: 2
+      towerPrefab: {fileID: 6749396197855582212, guid: 7f6ac4eb95ef3474e80b3761b885fad0, type: 3}
+  - buildID: 1006
+    sprite: {fileID: -455393919, guid: ba8cb7102384d418883ef909ed3befd5, type: 3}
+    name: "\u4E09\u7EA7\u841D\u535C\u70AE\u53F0"
+    cost: 100
+    isBased: 0
+    nexLev: 0
+    towerConfig:
+      atk: 3
+      attackRange: 4
+      attackSpeed: 3
+      bulletSpeed: 6
+      bulletType: 1
+      towerPrefab: {fileID: 7364594110259574355, guid: 83c9a094c977bfe409f29b8b0b21b69e, type: 3}
+  - buildID: 1007
+    sprite: {fileID: -1012976577, guid: bd1655396b777431e85369611fc36aed, type: 3}
+    name: "\u4E00\u7EA7\u571F\u8C46\u70AE\u53F0"
+    cost: 100
+    isBased: 1
+    nexLev: 1008
+    towerConfig:
+      atk: 2
+      attackRange: 4
+      attackSpeed: 2
+      bulletSpeed: 5
+      bulletType: 1
+      towerPrefab: {fileID: 7497531561345943381, guid: 2db6e576c3ed39444abd175c5e05cd53, type: 3}
+  - buildID: 1008
+    sprite: {fileID: -1730499155, guid: bd1655396b777431e85369611fc36aed, type: 3}
+    name: "\u4E8C\u7EA7\u571F\u8C46\u70AE\u53F0"
+    cost: 100
+    isBased: 0
+    nexLev: 1009
+    towerConfig:
+      atk: 3
+      attackRange: 4
+      attackSpeed: 3
+      bulletSpeed: 6
+      bulletType: 1
+      towerPrefab: {fileID: 7497531561345943381, guid: b4f280aa41c5f6d4ba6962b4d78bcac0, type: 3}
+  - buildID: 1009
+    sprite: {fileID: -1080373613, guid: bd1655396b777431e85369611fc36aed, type: 3}
+    name: "\u4E09\u7EA7\u571F\u8C46\u70AE\u53F0"
+    cost: 100
+    isBased: 0
+    nexLev: 0
+    towerConfig:
+      atk: 4
+      attackRange: 4
+      attackSpeed: 4
+      bulletSpeed: 6
+      bulletType: 1
+      towerPrefab: {fileID: 7497531561345943381, guid: 1fc6f74a05dd7d745bba3a66c887c86f, type: 3}

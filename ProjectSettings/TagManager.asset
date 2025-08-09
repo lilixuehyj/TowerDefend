@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - StartPos
+  - Obstacle
+  - Walk
+  - Target
+  - CanBuild
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Obstacle
+  - Walk
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: GroupBottom
+    uniqueID: 2224009987
+    locked: 0
+  - name: GroupMiddle
+    uniqueID: 3515755773
+    locked: 0
+  - name: GroupTop
+    uniqueID: 476085763
+    locked: 0
+  - name: GroupBuildPoint
+    uniqueID: 1345172797
+    locked: 0
+  - name: Walk
+    uniqueID: 116965335
+    locked: 0
+  - name: Collision
+    uniqueID: 935636901
+    locked: 0
+  - name: Instance
+    uniqueID: 3722883219
+    locked: 0
