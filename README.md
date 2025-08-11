@@ -1,4 +1,4 @@
-欢迎查看我开发的基于 Unity 的 2D 塔防小游戏 Demo。（演示视频和Demo见 `DemoVideo/` 文件夹）
+欢迎查看我开发的基于 Unity 的 2D 塔防小游戏 Demo。
 
 ## 项目简介
 
